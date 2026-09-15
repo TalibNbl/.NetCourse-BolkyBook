@@ -1,0 +1,11 @@
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\bin\Debug\net10.0\BulkyBook.Models.deps.json
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\bin\Debug\net10.0\BulkyBook.Models.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\bin\Debug\net10.0\BulkyBook.Models.pdb
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.AssemblyInfo.cs
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\refint\BulkyBook.Models.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.pdb
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\ref\BulkyBook.Models.dll
