@@ -5,6 +5,7 @@ C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\bootstrap\dist\css\bootstr
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\jquery-validation\LICENSE.md
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\js\products.js
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
@@ -64,6 +65,9 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\book.png
 wwwroot\images\confirmed.png
+wwwroot\images\products\55737cad-b413-4b3d-b0c4-66ab21fd32e1.jpeg
+wwwroot\images\products\63110211-13bf-482c-b6c6-e4595356d39e.jpeg
+wwwroot\js\products.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

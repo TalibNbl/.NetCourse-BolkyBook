@@ -231,3 +231,6 @@ C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\refint\BulkyBook.dll
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\BulkyBook.pdb
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\BulkyBook.genruntimeconfig.cache
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\ref\BulkyBook.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\BulkyBook.MvcApplicationPartsAssemblyInfo.cs
+C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\BulkyBook.sourcelink.json
+C:\GitTalib\.NetCourse-BolkyBook\BulkBook\obj\Debug\net10.0\compressed\3pj157ehmi-{0}-n06dlangk3-n06dlangk3.gz

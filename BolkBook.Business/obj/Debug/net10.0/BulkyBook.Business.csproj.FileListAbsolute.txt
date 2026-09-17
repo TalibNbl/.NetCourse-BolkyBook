@@ -17,3 +17,4 @@ C:\GitTalib\.NetCourse-BolkyBook\BolkBook.Business\obj\Debug\net10.0\BulkyBook.B
 C:\GitTalib\.NetCourse-BolkyBook\BolkBook.Business\obj\Debug\net10.0\refint\BulkyBook.Business.dll
 C:\GitTalib\.NetCourse-BolkyBook\BolkBook.Business\obj\Debug\net10.0\BulkyBook.Business.pdb
 C:\GitTalib\.NetCourse-BolkyBook\BolkBook.Business\obj\Debug\net10.0\ref\BulkyBook.Business.dll
+C:\GitTalib\.NetCourse-BolkyBook\BolkBook.Business\obj\Debug\net10.0\BulkyBook.Business.sourcelink.json

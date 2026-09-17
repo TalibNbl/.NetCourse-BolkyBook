@@ -1050,7 +1050,8 @@
         "dependencies": {
           "BulkyBook.Models": "1.0.0",
           "BulkyBook.Utility": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "10.0.5"
+          "Microsoft.EntityFrameworkCore": "10.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.5"
         },
         "compile": {
           "bin/placeholder/BulkyBook.DataAccess.dll": {}
@@ -1069,7 +1070,7 @@
           "bin/placeholder/BulkyBook.Models.dll": {}
         },
         "frameworkReferences": [
-          "Microsoft.AspNetCore.App>"
+          "Microsoft.AspNetCore.App"
         ]
       },
       "BulkyBook.Utility/1.0.0": {

@@ -13,6 +13,5 @@ namespace BulkyBook.Business.Services.IServices
         Task UpdateCategoryAsync(Category category);
         Task DeleteCategoryAsync(int id);
         Task<bool> IsCategoryNameUniqueAsync(string name, int? categoryID = null);
-
     }
 }

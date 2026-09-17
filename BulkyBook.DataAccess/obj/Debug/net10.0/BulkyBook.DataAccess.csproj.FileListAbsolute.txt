@@ -15,3 +15,6 @@ C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\obj\Debug\net10.0\BulkyBoo
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\obj\Debug\net10.0\refint\BulkyBook.DataAccess.dll
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\obj\Debug\net10.0\BulkyBook.DataAccess.pdb
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\obj\Debug\net10.0\ref\BulkyBook.DataAccess.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\bin\Debug\net10.0\BulkyBook.DataAccess.runtimeconfig.json
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\obj\Debug\net10.0\BulkyBook.DataAccess.sourcelink.json
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.DataAccess\obj\Debug\net10.0\BulkyBook.DataAccess.genruntimeconfig.cache

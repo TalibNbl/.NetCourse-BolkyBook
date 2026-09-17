@@ -88,10 +88,19 @@ namespace BulkyBook.Areas.Customer.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("Delete")]
-        public async Task<IActionResult> DeletePOST(int id)
+        public async Task<IActionResult> DeletePOST(int? categoryID, int? id)
         {
+            // Hem categoryID hem id kontrolü yaparak formdan hangi isimle gelirse gelsin yakalıyoruz
+            int targetId = categoryID ?? id ?? 0;
 
-           _categoryService.DeleteCategoryAsync(id);
+            if (targetId == 0)
+            {
+                return NotFound();
+            }
+
+            // Başına MUTLAKA await ekliyoruz:
+            await _categoryService.DeleteCategoryAsync(targetId);
+
             TempData["Success"] = "Category deleted successfully";
             return RedirectToAction("Index");
         }
