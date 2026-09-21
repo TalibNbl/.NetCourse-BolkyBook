@@ -4,9 +4,9 @@ using BulkyBook.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace BulkyBook.Areas.Customer.Controllers
+namespace BulkyBook.Areas.Admin.Controllers
 {
-    [Area("Customer")]
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;
@@ -57,92 +57,58 @@ namespace BulkyBook.Areas.Customer.Controllers
         [ActionName("Upsert")]
         public async Task<IActionResult> UpsertPOST(ProductVM productVM, IFormFile? file)
         {
+
             if (ModelState.IsValid)
             {
-                string wwwRootPath = _webHostEnvironment.WebRootPath;
+                string wwwRoothPath = _webHostEnvironment.WebRootPath;
 
                 if(file != null)
                 {
-                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string fileName = Guid.NewGuid().ToString()+Path.GetExtension(file.FileName);
                     string productPath = Path.Combine("images", "products");
-                    string finalPath = Path.Combine(wwwRootPath, productPath);
+                    string finalPath = Path.Combine(wwwRoothPath, productPath);
 
                     if (!Directory.Exists(finalPath))
-                    {
                         Directory.CreateDirectory(finalPath);
-                    }
 
-                    if (!string.IsNullOrEmpty(productVM.Product.ImageURL))
-                    {
-                        var oldImagePath = Path.Combine(wwwRootPath, productVM.Product.ImageURL.TrimStart('\\', '/'));
-                        if (System.IO.File.Exists(oldImagePath))
-                        {
-                            System.IO.File.Delete(oldImagePath);
-                        }
-                    }
+                    //save the new image
                     using (var fileStream = new FileStream(Path.Combine(finalPath, fileName), FileMode.Create))
                     {
                         file.CopyTo(fileStream);
                     }
 
-                    productVM.Product.ImageURL = $"/images/products/{fileName}";
+                    productVM.Product.ImageURL = Path.Combine(@"\", productPath, fileName).Replace("\\", "/");
                 }
 
-                if (productVM.Product.ProductID == 0)
+                if (productVM.Product.ProductID == null || productVM.Product.ProductID == 0)
                 {
                     await _productService.CreateProductAsync(productVM.Product);
-                    TempData["Success"] = "Product created successfully";
                 }
                 else
                 {
                     await _productService.UpdateProductAsync(productVM.Product);
-                    TempData["Success"] = "Product updated successfully";
+                    return View(productVM);
                 }
 
+                
+                TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index");
             }
             else
             {
                 var categories = await _categoryService.GetAllCategoriesAsync();
 
-                productVM.CategoryList = categories.Select(c => new SelectListItem
+                productVM = new()
                 {
-                    Text = c.Name,
-                    Value = c.CategoryID.ToString()
-                });
-
+                    CategoryList = categories.Select(c => new SelectListItem
+                    {
+                        Text = c.Name,
+                        Value = c.CategoryID.ToString()
+                    }),
+                };
                 return View(productVM);
             }
             
-        }
-
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || id == 0) return NotFound();
-
-            var product = await _productService.GetProductByIDAsync(id.Value);
-
-            if (product == null) return NotFound();
-
-            return View(product);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        [ActionName("Delete")]
-        public async Task<IActionResult> DeletePOST(int? productID, int? id)
-        {
-            int targetId = productID ?? id ?? 0;
-
-            if (targetId == 0)
-            {
-                return NotFound();
-            }
-
-            await _productService.DeleteProductAsync(targetId);
-
-            TempData["Success"] = "Product deleted successfully";
-            return RedirectToAction("Index");
         }
 
         #region API calls
@@ -151,6 +117,37 @@ namespace BulkyBook.Areas.Customer.Controllers
             var products = await _productService.GetAllProductsAsync(true);
             return Json(new { data = products });
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return Json(new { success = false, message = "Invalid ID" });
+            }
+
+            var productToBeDeleted = await _productService.GetProductByIDAsync(id.Value);
+            if (productToBeDeleted == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+
+            //delete product image if that exist
+            if (!string.IsNullOrEmpty(productToBeDeleted.ImageURL))
+            {
+                var imagePath = Path.Combine(_webHostEnvironment.WebRootPath, productToBeDeleted.ImageURL.TrimStart('\\', '/'));
+
+                if (System.IO.File.Exists(imagePath))
+                {
+                    System.IO.File.Delete(imagePath);
+                }
+            }
+            await _productService.DeleteProductAsync(id.Value);
+
+            return Json(new { success = true, message = "Delete Successful" });
+        }
         #endregion
     }
+
+
 }

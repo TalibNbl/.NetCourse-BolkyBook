@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\views\\product\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:wwwroot\\js\\products.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,77 +14,30 @@
       "DocumentGroups": [
         {
           "DockedHeight": 396,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Customer\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-17T03:35:53.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Upsert.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Product\\Upsert.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Product\\Upsert.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Product\\Upsert.cshtml",
-              "RelativeToolTip": "Areas\\Customer\\Views\\Product\\Upsert.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAuwHoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-17T03:06:09.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "products.js",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\wwwroot\\js\\products.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\products.js",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\wwwroot\\js\\products.js",
-              "RelativeToolTip": "wwwroot\\js\\products.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-09-17T03:02:58.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Areas\\Customer\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAcwJIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-17T01:42:32.264Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedHeight": 38,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T08:13:47.898Z",
+              "EditorCaption": ""
             }
           ]
         }
