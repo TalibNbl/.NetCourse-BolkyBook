@@ -3,8 +3,15 @@
   "WorkspaceRootPath": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E60E4AD3-D244-4D55-834E-ECB0EA6D6855}|..\\BulkyBook.Models\\BulkyBook.Models.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkybook.models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,29 +21,49 @@
       "DocumentGroups": [
         {
           "DockedHeight": 396,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 38,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Customer\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFIAAABMAAAAAAAAAA==",
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkyBook.Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "..\\BulkyBook.Models\\OrderDetails.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkyBook.Models\\OrderDetails.cs",
+              "RelativeToolTip": "..\\BulkyBook.Models\\OrderDetails.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T16:24:19.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T15:47:44.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-21T08:13:47.898Z",
+              "WhenOpened": "2026-10-25T15:45:26.633Z",
               "EditorCaption": ""
             }
           ]

@@ -10,3 +10,4 @@ C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\refint\Bulky
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.pdb
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\ref\BulkyBook.Models.dll
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.sourcelink.json
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Models\obj\Debug\net10.0\BulkyBook.Models.csproj.AssemblyReference.cache

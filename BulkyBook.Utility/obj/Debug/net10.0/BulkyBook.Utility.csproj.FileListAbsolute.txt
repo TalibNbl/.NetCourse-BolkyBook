@@ -9,3 +9,5 @@ C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Utility\obj\Debug\net10.0\BulkyBook.U
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Utility\obj\Debug\net10.0\refint\BulkyBook.Utility.dll
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Utility\obj\Debug\net10.0\BulkyBook.Utility.pdb
 C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Utility\obj\Debug\net10.0\ref\BulkyBook.Utility.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Utility\obj\Debug\net10.0\BulkyBook.Utility.sourcelink.json
+C:\GitTalib\.NetCourse-BolkyBook\BulkyBook.Utility\obj\Debug\net10.0\BulkyBook.Utility.csproj.AssemblyReference.cache

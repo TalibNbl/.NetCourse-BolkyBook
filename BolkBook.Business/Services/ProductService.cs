@@ -30,11 +30,11 @@ namespace BulkyBook.Business.Services
         {
             if (includeCategory)
             {
-                return await _context.Products.Include(u => u.Category).FirstOrDefaultAsync(u=>u.CategoryID==id);
+                return await _context.Products.Include(u => u.Category).FirstOrDefaultAsync(u=>u.ProductID==id);
             }
             else
             {
-                return await _context.Products.FirstOrDefaultAsync(u => u.CategoryID == id);
+                return await _context.Products.FirstOrDefaultAsync(u => u.ProductID == id);
             }
         }
 
