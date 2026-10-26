@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[10.0.13, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[53.0.0, )"
+            },
             "System.Security.Cryptography.Pkcs": {
               "target": "Package",
               "version": "[10.0.13, )"
@@ -453,6 +457,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.13, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[53.1.0-beta.1, )"
             },
             "System.Security.Cryptography.Pkcs": {
               "target": "Package",

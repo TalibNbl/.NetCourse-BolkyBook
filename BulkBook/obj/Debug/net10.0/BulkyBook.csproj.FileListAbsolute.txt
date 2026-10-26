@@ -248,3 +248,4 @@ C:\GitTalib\.NetCourse-BolkyBook\BulkBook\bin\Debug\net10.0\runtimes\win-x64\nat
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
 C:\GitTalib\.NetCourse-BolkyBook\BulkBook\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\GitTalib\.NetCourse-BolkyBook\BulkBook\bin\Debug\net10.0\Stripe.net.dll

@@ -3,27 +3,18 @@
   "WorkspaceRootPath": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{31337D06-8FD6-4C2A-9836-6EE1F2A918D5}|..\\BolkBook.Business\\BulkyBook.Business.csproj|c:\\gittalib\\.netcourse-bolkybook\\bolkbook.business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31337D06-8FD6-4C2A-9836-6EE1F2A918D5}|..\\BolkBook.Business\\BulkyBook.Business.csproj|c:\\gittalib\\.netcourse-bolkybook\\bolkbook.business\\services\\iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E60E4AD3-D244-4D55-834E-ECB0EA6D6855}|..\\BulkyBook.Models\\BulkyBook.Models.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkybook.models\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\views\\shared\\_adminsidebarnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:views\\shared\\_adminsidebarnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,92 +24,62 @@
       "DocumentGroups": [
         {
           "DockedHeight": 396,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAH8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-25T16:14:07.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderConfirmation.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "RelativeToolTip": "Areas\\Customer\\Views\\Cart\\OrderConfirmation.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-25T16:10:33.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_AdminSidebarNav.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Views\\Shared\\_AdminSidebarNav.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AdminSidebarNav.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Views\\Shared\\_AdminSidebarNav.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AdminSidebarNav.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-25T16:09:02.511Z",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\BolkBook.Business\\Services\\OrderService.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\BolkBook.Business\\Services\\OrderService.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAywLsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T20:47:10.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
+              "RelativeToolTip": "..\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T15:47:44.027Z",
+              "WhenOpened": "2026-10-26T20:45:26.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DashboardVM.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkyBook.Models\\ViewModels\\DashboardVM.cs",
-              "RelativeDocumentMoniker": "..\\BulkyBook.Models\\ViewModels\\DashboardVM.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkyBook.Models\\ViewModels\\DashboardVM.cs",
-              "RelativeToolTip": "..\\BulkyBook.Models\\ViewModels\\DashboardVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-25T15:46:46.655Z",
+              "WhenOpened": "2026-10-26T20:42:40.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-25T15:45:26.633Z",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAkwJEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T20:15:31.748Z",
               "EditorCaption": ""
             }
           ]

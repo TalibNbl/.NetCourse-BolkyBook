@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("26d768a4-4ce7-4dfb-8359-a42be436d53f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BulkyBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08bc9fa68d7b1d1069aae52a7a44de74aa80ca38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53567fb9a9c75aafde9fc932ac000cb8d662a6a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BulkyBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BulkyBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

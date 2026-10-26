@@ -4,6 +4,8 @@ using BulkyBook.Models.ViewModels;
 using BulkyBook.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Stripe;
+using Stripe.Checkout;
 using System.Security.Claims;
 
 namespace BulkyBook.Areas.Customer.Controllers
@@ -83,7 +85,7 @@ namespace BulkyBook.Areas.Customer.Controllers
                 shoppingCartVM.OrderHeader.OrderTotal += (cart.Price * cart.Count);
             }
 
-            shoppingCartVM.OrderHeader.OrderStatus = SD.StatusApproved;
+            shoppingCartVM.OrderHeader.OrderStatus = SD.StatusPending;
             shoppingCartVM.OrderHeader.OrderDetails = shoppingCartVM.ShoppingCartList.Select(cart => new OrderDetails
             {
                 ProductID = cart.ProductID,
@@ -92,15 +94,65 @@ namespace BulkyBook.Areas.Customer.Controllers
             }).ToList();
             await _orderService.CreateOrderAync(shoppingCartVM.OrderHeader);
 
+            try
+            {
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
+
+
+                var sessionUrl = await _orderService.CreateStripeCheckoutSessionAsync(shoppingCartVM.OrderHeader, shoppingCartVM.ShoppingCartList, domain);
+                Response.Headers.Append("Location", sessionUrl);
+                return new StatusCodeResult(303);
+            }
+            catch(StripeException ex)
+            {
+                TempData["error"] = "Payment procession failed. Please try again.";
+                return RedirectToAction(nameof(Index));
+            }
+        }
+
+        public async Task<IActionResult> OrderConfirmation(int id)
+        {
+            var orderHeader = await _orderService.GetOrderByIDAsync(id, includeUser: true);
+            if(orderHeader == null)
+            {
+                return NotFound();
+            }
+
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var userID = claimsIdentity?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userID))
+            {
+                return Unauthorized();
+            }
+            if(orderHeader.ApplicationUserID != userID)
+            {
+                return RedirectToAction("AccessDenied", "Account", new { area = "Identity" });
+            }
+
+            try
+            {
+                var result = await _orderService.VerifyStripePaymentAsync(orderHeader);
+
+                if (result)
+                {
+                    TempData["success"] = "Payment completed successfully! Your order has been confirmed.";
+                }
+                else
+                {
+                    TempData["error"] = "Payment status is pending. Please contact support if you completed the payment.";
+                }
+            }
+            catch (StripeException ex) 
+            {
+                TempData["error"] = "Unable to verify payment status. Please contact support with your order number.";
+            }
+
             var user = await _applicationUserService.GetUserByIDAsync(userID);
 
             await _emailService.SendOrderConfirmationEmailAsync(user.Email,
-                shoppingCartVM.OrderHeader.Id, (decimal)shoppingCartVM.OrderHeader.OrderTotal);
+                orderHeader.Id, (decimal)orderHeader.OrderTotal);
 
-            return RedirectToAction("OrderConfirmation", new { id = shoppingCartVM.OrderHeader.Id });
-        }
-        public async Task<IActionResult> OrderConfirmation(int id)
-        {
             return View(id);
         }
 
