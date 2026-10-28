@@ -3,18 +3,16 @@
   "WorkspaceRootPath": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31337D06-8FD6-4C2A-9836-6EE1F2A918D5}|..\\BolkBook.Business\\BulkyBook.Business.csproj|c:\\gittalib\\.netcourse-bolkybook\\bolkbook.business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31337D06-8FD6-4C2A-9836-6EE1F2A918D5}|..\\BolkBook.Business\\BulkyBook.Business.csproj|c:\\gittalib\\.netcourse-bolkybook\\bolkbook.business\\services\\iservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|c:\\gittalib\\.netcourse-bolkybook\\bulkbook\\areas\\identity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F91ADF2-7CA3-B763-A833-8862902ABFED}|BulkyBook.csproj|solutionrelative:areas\\identity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 396,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,54 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "..\\BolkBook.Business\\Services\\OrderService.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\OrderService.cs",
-              "RelativeToolTip": "..\\BolkBook.Business\\Services\\OrderService.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAywLsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T20:47:10.304Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T17:08:31.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
-              "RelativeDocumentMoniker": "..\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
-              "RelativeToolTip": "..\\BolkBook.Business\\Services\\IServices\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T20:45:26.769Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAFMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T17:03:14.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Identity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Areas\\Identity\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowIcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T20:42:40.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\GitTalib\\.NetCourse-BolkyBook\\BulkBook\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAkwJEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T20:15:31.748Z",
+              "WhenOpened": "2026-10-28T17:03:04.351Z",
               "EditorCaption": ""
             }
           ]

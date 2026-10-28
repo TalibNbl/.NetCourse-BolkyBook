@@ -100,6 +100,8 @@ namespace BulkyBook.Areas.Customer.Controllers
 
 
                 var sessionUrl = await _orderService.CreateStripeCheckoutSessionAsync(shoppingCartVM.OrderHeader, shoppingCartVM.ShoppingCartList, domain);
+                await _shoppingCartService.ClearCartAsync(userID);
+                HttpContext.Session.SetInt32(SD.SessionCart, 0);
                 Response.Headers.Append("Location", sessionUrl);
                 return new StatusCodeResult(303);
             }
